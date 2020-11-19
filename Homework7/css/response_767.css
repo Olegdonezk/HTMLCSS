@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        padding: 30px;
+        align-items: center;
+        justify-content: space-between;
+        margin: unset;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    .header-slider {
+        display: none;
+    }
+
+    .counters {
+        padding: 38px 15px;
+    }
+
+    .counters-list {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .counters-list-item {
+        margin-left: unset;
+    }
+
+    .recent-posts-items a {
+        width: 370px;
+        margin-top: 20px;
+    }
+
+    .partners {
+        padding: 50px 0px;
+        background-size: cover;
+    }
+
+    .partners-item img {
+        margin: 0 20px;
+        max-width: 120px;
+    }
+}
