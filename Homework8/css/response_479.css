@@ -1,0 +1,47 @@
+@media (max-width: 479px) {
+    .service-item:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .latest-projects-header {
+        max-width: 479px;
+    }
+
+    .latest-projects-tabs {
+        flex-wrap: wrap;
+    }
+
+    .latest-projects-tabs a {
+        margin-bottom: 10px;
+    }
+
+    .mobile-devices {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .mobile-devices img {
+        display: none;
+    }
+
+    .mobile-devices-text {
+        padding: 0 10px;
+    }
+
+    .counters-list {
+        flex-wrap: wrap;
+    }
+
+    .counters-list-item {
+        flex-basis: 30%;
+        margin-bottom: 20px;
+    }
+
+    .partners-item img {
+        max-width: 60px;
+    }
+
+    .footer-columns {
+        display: none;
+    }
+}
