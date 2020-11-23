@@ -1,0 +1,39 @@
+@media (max-width: 1023px) {
+    .header nav {
+        margin-left: 0px;
+    }
+
+    .slider-prev:before {
+        left: 100px;
+    }
+
+    .slider-next:before {
+        right: 100px;
+    }
+
+    .presentation {
+        height: 400px;
+    }
+
+    .recent-posts-items a {
+        margin-top: 20px;
+    }
+
+    .partners {
+        padding: 100px 0px;
+    }
+
+    .partners-item img {
+        margin: 0 30px;
+        max-width: 150px;
+    }
+
+    .footer-columns {
+        padding-top: 50px;
+    }
+
+    .footer-column:last-child {
+        margin-bottom: 50px;
+    }
+
+}

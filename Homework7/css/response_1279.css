@@ -1,0 +1,56 @@
+@media (max-width: 1279px) {
+    header {
+        height: 620px;
+        background-size: cover;
+    }
+    
+    .header nav {
+        margin-left: 200px;
+    }
+
+    .header-slider {
+        margin-top: 150px;
+    }
+
+    .header-slider-items {
+        height: 372px;
+    }
+
+    .slider-prev:before {
+        bottom: 250px;
+    }
+
+    .slider-next:before {
+        bottom: 250px;
+    }
+
+    .purchase-now_block {
+        padding: 45px 10px;
+    }
+
+    .latest-projects-items {
+        justify-content: center;
+    }
+
+    .recent-posts-items a {
+        width: 300px;
+    }
+
+    .footer-columns {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-column:first-child {
+        margin-right: 0px;
+    }
+
+    .footer-column:not(:first-child) {
+        margin-right: 0px;
+    }
+
+    .copyright {
+        padding-left: 20px;
+    }
+
+}
